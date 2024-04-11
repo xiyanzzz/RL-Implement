@@ -1,7 +1,7 @@
 import gym
 import matplotlib.pyplot as plt
 from matplotlib import animation
-from DQN_CartPole import Agent
+from DQN import Agent
 
 
 def display_frames_as_gif(frames):

@@ -6,7 +6,14 @@ This repository is used to house some algorithm implementations in the field of 
 
 ## Implemented algorithm
 
-- Q-learning
-- DQN
-- REINFORCE with baseline
-- A2C (Multi-step TD)
+- Value-based (for CartPole-v1)
+  - Q-learning (tabular)
+  - DQN
+- Policy-based (for CartPole-v1)
+  - REINFORCE (with baseline)
+  - A2C (Multi-step TD)
+- Continuous Control (for MountainCarContinuous-v0)
+  - DDPG
+  - TD3
+  - SAC
+  - PPO

@@ -5,8 +5,8 @@ import numpy as np
 import torch.nn as nn
 import matplotlib.pyplot as plt
 from matplotlib import animation
-from REINFORCEwithBaseline import Agent as REIN_Agent
-from A2CwithMultiStepTD import Agent as A2C_Agent
+from REINFORCE import Agent as REIN_Agent
+from A2C import Agent as A2C_Agent
 
 def display_frames_as_gif(frames, agent_name):
     patch = plt.imshow(frames[0])
